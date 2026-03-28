@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Teatro de Créditos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<script src="script.js" type="text/javascript"></script>
+<div id="stage">
+
+
+  <div id="scene"></div>
+  <div id="spotlight"></div>
+
+
+  <div id="valance"></div>
+
+  <!-- cortinas -->
+  <div class="curtain curtain-left">
+    <div class="curtain-fabric"></div>
+    <div class="curtain-folds"></div>
+    <div class="curtain-trim"></div>
+  </div>
+  <div class="curtain curtain-right">
+    <div class="curtain-fabric"></div>
+    <div class="curtain-folds"></div>
+    <div class="curtain-trim"></div>
+  </div>
+
+  <!-- creditos -->
+  <div id="credits-wrap">
+    <div id="credits">
+
+      <div class="credit-section">
+        <div class="credit-title">N/A</div>
+        <div class="credit-subtitle">Agradecimientos</div>
+      </div>
+
+      <div class="credit-divider"></div>
+
+      <div class="credit-section">
+        <div class="credit-role">Dirección</div>
+        <div class="credit-name">Celeste B.(EX OJETEX)</div>
+      </div>
+
+      <div class="credit-section">
+        <div class="credit-role">Acompañante en vida y probablemente en muerte</div>
+        <div class="credit-name">DaniBanMode</div>
+      </div>
+
+      <div class="credit-divider"></div>
+
+      <div class="credit-section">
+        <div class="credit-role">Mi beste</div>
+        <div class="credit-name">iMissRight (Vuelve maldita)</div>
+      </div>
+
+      <div class="credit-section">
+        <div class="credit-role">Pana de tertulias</div>
+        <div class="credit-name">Neaxgear0436</div>
+      </div>
+
+      <div class="credit-divider"></div>
+
+      <div class="credit-section">
+        <div class="credit-role">Músical</div>
+        <div class="credit-name">I dare you - shinedown</div>
+      </div>
+
+      <div class="credit-section">
+        <div class="credit-role">Ayudante</div>
+        <div class="credit-name">Claudio la Inteligencia Artesanal</div>
+      </div>
+
+      <div class="credit-divider"></div>
+
+      <div class="credit-section">
+        <div class="credit-role">El prohibido</div>
+        <div class="credit-name">Jeffrey Epstein</div>
+      </div>
+
+      <div class="credit-section">
+        <div class="credit-role">El kennedy contemporaneo</div>
+        <div class="credit-name">Charlie Kirk</div>
+      </div>
+
+      <div class="credit-divider"></div>
+
+      <div class="credit-section">
+        <div class="credit-role">Agradecimientos Especiales</div>
+        <div class="credit-name" style="font-size:1.4rem;">A los mencionados y los que no estan<br/>(me avisan si quieren estar para agregarlo, dale no sean gandayas)</div>
+      </div>
+
+     
+      <div class="credit-divider"></div>
+
+      <div class="credit-section">
+        <div class="credit-year">MMXXV - V1.0</div>
+      </div>
+      <div class="credit-section">
+        <div class="credit-name" style="font-size:0.9rem;">Todos los derechos e izquierdos reservados ©</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tarjeta presentación-->
+  <div id="profile-card">
+    <div id="profile-avatar">
+     <img src="assets/avatar.png" alt="Foto de perfil" >
+      <!-- <span class="avatar-fallback">✦</span> -->
+    </div>
+    <div id="profile-info">
+      <div id="profile-name">Queen Brightside</div>
+      <div id="profile-title">Shitposter &amp; Architect</div>
+      <div id="profile-tags">
+        <span class="tag">Sometimes Dev</span>
+        <span class="tag">Meme cook</span>
+        <span class="tag" style="cursor: pointer;"><a href="https://xat.com/alianzapirata" target="_blank" style="text-decoration: none; color: #ffffff;">AP</a> </span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<button id="open-btn">✦ Abrir el Telón ✦</button>
+<!-- REPITO -->
+<button id="replay-btn">↺ Repetir Función ↺</button>
+
+<audio id="bgm" loop preload="auto">
+  <source src="assets/idareyou.mp3" type="audio/mpeg">
+</audio>
+
+
+</body>
+</html>
